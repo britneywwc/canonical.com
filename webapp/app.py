@@ -1222,7 +1222,4 @@ def set_form_rules():
                 )
 
 
-# this causes secondary navigation to dissapear
-# on /data/opensearch and /data/postresql
-# see: https://github.com/canonical/canonical.com/issues/1399
 set_form_rules()
