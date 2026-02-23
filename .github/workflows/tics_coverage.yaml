@@ -9,6 +9,9 @@ on: pull_request
   #       required: false
   #       default: "true"
 permissions: read-all
+# We cannot run TiCS on forked pull requests due to the usage of secrets
+# This workflow can only run as a CRON job or 
+# on branched PRs within the main repository.
 env:
   SECRET_KEY: insecure_test_key
   APPLICATION_CRYPTO_SECRET_KEY: insecure_test_key
@@ -45,7 +48,28 @@ jobs:
         run: |
           coverage run --data-file=.coverage_db --source=webapp -m unittest discover tests &&
           coverage report --data-file=.coverage_db &&
-          coverage xml --data-file=.coverage_db -o coverage/coverage.xml
+          coverage xml --data-file=.coverage_db -o coverage/coverage-py.xml
+
+      - name: Merge Python and JavaScript coverage reports
+        run: |
+          python3 << 'EOF'
+          import xml.etree.ElementTree as ET
+          
+          # Parse both coverage files
+          py_tree = ET.parse('coverage/coverage-py.xml')
+          js_tree = ET.parse('coverage/cobertura-coverage.xml')
+          
+          py_root = py_tree.getroot()
+          js_root = js_tree.getroot()
+          
+          # Merge packages from JS into Python coverage
+          for package in js_root.findall('.//package'):
+              py_root.append(package)
+          
+          # Write merged file
+          py_tree.write('coverage/coverage.xml', encoding='UTF-8', xml_declaration=True)
+          print("Coverage reports merged successfully")
+          EOF
 
       - name: Verify coverage file exists
         run: ls -la coverage/
