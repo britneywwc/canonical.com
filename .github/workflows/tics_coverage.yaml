@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.base_ref }}
+          # ref: ${{ github.base_ref }}
 
       - name: Install Python requirements
         run: |
@@ -42,7 +42,8 @@ jobs:
         run: yarn build
       
       - name: Run JS tests
-        run: yarn test-js --coverage
+        run: |
+          yarn test-js --coverage
 
       - name: Run tests and generate coverage report
         run: |
@@ -50,26 +51,16 @@ jobs:
           coverage report --data-file=.coverage_db &&
           coverage xml --data-file=.coverage_db -o coverage/coverage-py.xml
 
-      - name: Merge Python and JavaScript coverage reports
-        run: |
-          python3 << 'EOF'
-          import xml.etree.ElementTree as ET
-          
-          # Parse both coverage files
-          py_tree = ET.parse('coverage/coverage-py.xml')
-          js_tree = ET.parse('coverage/cobertura-coverage.xml')
-          
-          py_root = py_tree.getroot()
-          js_root = js_tree.getroot()
-          
-          # Merge packages from JS into Python coverage
-          for package in js_root.findall('.//package'):
-              py_root.append(package)
-          
-          # Write merged file
-          py_tree.write('coverage/coverage.xml', encoding='UTF-8', xml_declaration=True)
-          print("Coverage reports merged successfully")
-          EOF
+      # - name: Merge JS and Python coverage
+      #   run: |
+      #     python3 << 'EOF'
+      #     import xml.etree.ElementTree as ET
+      #     py_tree = ET.parse('coverage/coverage-py.xml')
+      #     js_tree = ET.parse('coverage/coverage-js.xml')
+      #     for package in js_tree.findall('.//package'):
+      #         py_tree.getroot().append(package)
+      #     py_tree.write('coverage/coverage.xml', encoding='UTF-8', xml_declaration=True)
+      #     EOF
 
       - name: Verify coverage file exists
         run: ls -la coverage/
