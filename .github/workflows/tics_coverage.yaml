@@ -39,7 +39,7 @@ jobs:
         run: yarn build
       
       - name: Run JS tests
-        run: yarn test-js
+        run: yarn test-js --coverage
 
       - name: Run tests and generate coverage report
         run: |
@@ -101,7 +101,7 @@ jobs:
           mkdir -p .coverage &&
           mv coverage/coverage.xml .coverage/coverage.xml
       
-      - if: ${{ env.detach == 'true' }}
+      - if: always()
         name: Detach TICS QServer to prevent "project already connected" issue
         env:
           TICSAUTHTOKEN: ${{ secrets.TICSAUTHTOKEN }}
