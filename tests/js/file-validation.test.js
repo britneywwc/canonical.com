@@ -1,28 +1,17 @@
 /** @jest-environment jsdom */
 
+import "../../static/js/file-validation.js";
+
 describe("file-validation", () => {
   let validateFile;
   let allowedExtensions;
   let maxAllowedSize;
 
   beforeEach(() => {
-    allowedExtensions = /(\.pdf|\.doc|\.docx|\.txt|\.rtf)$/i;
-    maxAllowedSize = 1048576; // 1MB
-
-    validateFile = (inputElement) => {
-      const filePath = inputElement.value;
-      const fileSize = inputElement.files[0].size;
-      if (!allowedExtensions.exec(filePath)) {
-        alert(
-          "Invalid file format selected. Allowed formats are: pdf, doc, docx, txt, rtf"
-        );
-        inputElement.value = "";
-      }
-      if (fileSize >= maxAllowedSize) {
-        alert("Invalid file size. Maximum file size 1MB.");
-        inputElement.value = "";
-      }
-    };
+    // Get exported functions from window.fileValidation
+    validateFile = window.fileValidation.validateFile;
+    allowedExtensions = window.fileValidation.allowedExtensions;
+    maxAllowedSize = window.fileValidation.maxAllowedSize;
 
     // Mock alert
     global.alert = jest.fn();

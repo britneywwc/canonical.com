@@ -49,18 +49,7 @@ jobs:
         run: |
           coverage run --data-file=.coverage_db --source=webapp -m unittest discover tests &&
           coverage report --data-file=.coverage_db &&
-          coverage xml --data-file=.coverage_db -o coverage/coverage-py.xml
-
-      # - name: Merge JS and Python coverage
-      #   run: |
-      #     python3 << 'EOF'
-      #     import xml.etree.ElementTree as ET
-      #     py_tree = ET.parse('coverage/coverage-py.xml')
-      #     js_tree = ET.parse('coverage/coverage-js.xml')
-      #     for package in js_tree.findall('.//package'):
-      #         py_tree.getroot().append(package)
-      #     py_tree.write('coverage/coverage.xml', encoding='UTF-8', xml_declaration=True)
-      #     EOF
+          coverage xml --data-file=.coverage_db -o coverage/coverage.xml
 
       - name: Verify coverage file exists
         run: ls -la coverage/
