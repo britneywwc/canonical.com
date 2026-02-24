@@ -103,7 +103,8 @@ jobs:
       - name: Move coverage report to expected location
         run: |
           mkdir -p .coverage &&
-          mv coverage/coverage.xml .coverage/coverage.xml
+          mv coverage/coverage.xml .coverage/coverage-py.xml
+          mv coverage/cobertura-coverage.xml .coverage/coverage-js.xml
       
       - if: always()
         name: Detach TICS QServer to prevent "project already connected" issue
