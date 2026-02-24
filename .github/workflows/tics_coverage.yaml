@@ -42,8 +42,7 @@ jobs:
         run: yarn build
       
       - name: Run JS tests
-        run: |
-          yarn test-js --coverage
+        run: yarn test-js --coverage
 
       - name: Run tests and generate coverage report
         run: |
