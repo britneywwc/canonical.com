@@ -3,6 +3,7 @@ import flask
 import requests
 import math
 import datetime
+from urllib.parse import unquote
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 from cachetools import TTLCache, cached
@@ -310,6 +311,8 @@ def append_utms_cookie_to_ubuntu_links(response):
         cookie_value = flask.request.cookies.get("utms")
 
         if cookie_value:
+            # Decode the URI encoded cookie value
+            cookie_value = unquote(cookie_value)
             data = response.get_data(as_text=True)
             # Find all href attributes pointing to ubuntu.com
             pattern = r'href=["\']([^"\']*ubuntu\.com[^"\']*)["\']'
