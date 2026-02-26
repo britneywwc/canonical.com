@@ -319,8 +319,18 @@ def append_utms_cookie_to_ubuntu_links(response):
 
             def add_cookie_to_url(match):
                 url = match.group(1)
-                separator = "&" if "?" in url else "?"
-                new_url = f"{url}{separator}{cookie_value}"
+
+                # Check if URL has a hash and insert UTM before it
+                if "#" in url:
+                    base_url, hash_part = url.split("#", 1)
+                    separator = "&" if "?" in base_url else "?"
+                    new_url = (
+                        f"{base_url}{separator}{cookie_value}#{hash_part}"
+                    )
+                else:
+                    separator = "&" if "?" in url else "?"
+                    new_url = f"{url}{separator}{cookie_value}"
+
                 return f'href="{new_url}"'
 
             data = re.sub(pattern, add_cookie_to_url, data)
