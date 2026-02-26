@@ -1,13 +1,13 @@
 name: TICS Analysis and Coverage
-on: pull_request
-  # schedule:
-  #   - cron: "0 22 * * 5"
-  # workflow_dispatch:
-  #   inputs:
-  #     detach:
-  #       description: "Detach TICS QServer before the run"
-  #       required: false
-  #       default: "true"
+on:
+  schedule:
+    - cron: "0 22 * * 5"
+  workflow_dispatch:
+    inputs:
+      detach:
+        description: "Detach TICS QServer before the run"
+        required: false
+        default: "true"
 permissions: read-all
 # We cannot run TiCS on forked pull requests due to the usage of secrets
 # This workflow can only run as a CRON job or 
@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # ref: ${{ github.base_ref }}
+          ref: ${{ github.base_ref }}
 
       - name: Install Python requirements
         run: |
@@ -105,7 +105,7 @@ jobs:
           mv coverage/coverage.xml .coverage/coverage-py.xml
           mv coverage/cobertura-coverage.xml .coverage/coverage-js.xml
       
-      - if: always()
+      - if: ${{ env.detach == 'true' }}
         name: Detach TICS QServer to prevent "project already connected" issue
         env:
           TICSAUTHTOKEN: ${{ secrets.TICSAUTHTOKEN }}

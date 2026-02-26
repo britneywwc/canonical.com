@@ -14,9 +14,6 @@ describe("active-nav-scroll", () => {
 
     // Mock IntersectionObserver
     mockIntersectionObserver = jest.fn((callback, options) => {
-      const observerId = Math.random();
-      observerCallbacks[observerId] = callback;
-
       return {
         observe: jest.fn(),
         unobserve: jest.fn(),
