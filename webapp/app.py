@@ -95,6 +95,8 @@ DYNAMIC_SITEMAPS = [
     "blog",
 ]
 
+APP_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Web tribe websites custom search ID
 search_engine_id = "adb2397a224a1fe55"
 
@@ -1440,7 +1442,7 @@ def handle_maas_goget():
 def bad_gateway(e):
     prefix = "502 Bad Gateway: "
     if str(e).find(prefix) != -1:
-        message = str(e)[len(prefix) :]
+        message = str(e)[len(prefix):]
     return flask.render_template("502.html", message=message), 502
 
 
@@ -1461,7 +1463,6 @@ def get_user_country_by_tz():
     Eventually we plan to merge this function with the one below, once we
     are confident that takeovers won't be broken.
     """
-    APP_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     timezone = flask.request.args.get("tz")
 
     with open(
@@ -1668,7 +1669,7 @@ microk8s_discourse_api.init_app(app)
 
 def build_sitemap_tree(exclude_paths=None):
     def create_sitemap(sitemap_path):
-        directory_path = os.getcwd() + "/templates"
+        directory_path = APP_ROOT + "/templates"
         base_url = "https://canonical.com"
         try:
             xml_sitemap = directory_parser.generate_sitemap(
@@ -1694,7 +1695,7 @@ def build_sitemap_tree(exclude_paths=None):
         This sitemap tracks changes in the template files and is generated
         dynamically on every new push to main.
         """
-        sitemap_path = os.getcwd() + "/templates/sitemap_tree.xml"
+        sitemap_path = APP_ROOT + "/templates/sitemap_tree.xml"
 
         # Update sitemap with POST request
         if flask.request.method == "POST":
@@ -1736,11 +1737,12 @@ def build_sitemap_tree(exclude_paths=None):
 # Endpoint for retrieving parsed directory tree
 def get_sitemaps_tree():
     try:
+        templates_path = APP_ROOT + "/templates"
         tree = directory_parser.scan_directory(
-            os.getcwd() + "/templates", exclude_paths=DYNAMIC_SITEMAPS
+            templates_path, exclude_paths=DYNAMIC_SITEMAPS
         )
     except Exception as e:
-        return {"Error:": str(e)}, 500
+        return {"Error": str(e)}, 500
     return tree
 
 

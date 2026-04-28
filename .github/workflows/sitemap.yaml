@@ -1,5 +1,7 @@
-name: Generate sitemap for static pages on canonical.com
+name: Sitemap generation for static pages on canonical.com
 on:
+  # remove before merge
+  pull_request:
   push:
     branches:
       - main
