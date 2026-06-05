@@ -104,6 +104,17 @@ class TestRoutes(VCRTestCase):
             self.client.get("/careers/roles.json").status_code, 200
         )
 
+    def test_ceph_support_page(self):
+        response = self.client.get("/ceph/support")
+
+        self.assertEqual(response.status_code, 200)
+        html_content = response.data.decode("utf-8")
+        self.assertIn(
+            "Change enterprise Ceph support, consulting, and managed services.",
+            html_content,
+        )
+        self.assertNotIn("Services for Canonical Ceph", html_content)
+
     def test_invalid_careers_department(self):
         """
         When given the URL of an invalid careers department,
