@@ -1,0 +1,1144 @@
+{
+  "metadata": {
+    "document_title": "Copy of Index - \"LXD Draft Webpage\"",
+    "document_id": "1LEb-HgUbWnWivkYK_TCHkRCZFHOprMt-yhvvut7ldMw",
+    "tab_id": "t.0",
+    "extraction_time": "2026-06-16T12:42:48.007919+08:00",
+    "extraction_duration": 630491792,
+    "processing_duration": 631589250,
+    "total_duration": 631589250
+  },
+  "document_metadata": {
+    "raw": {
+      "*Current page URL (if applicable)": "https://ubuntu.com/lxd",
+      "*Page owner (writer and department)": "",
+      "*Suggested page URL (if applicable)": "https://canonical.com/lxd",
+      "Main CTA (call to action)": "",
+      "Page description (160 characters max)": "Low-touch virtual infrastructure with LXD at any scale. Built on top of Linux containers, LXD offers a unified user experience in managing system containers, virtual machines and clusters. Easily configurable, flexible and trustedsecure way to run your workloads.",
+      "Page title (60 characters max)": "Canonical LXD",
+      "Page type (choose from drop down)": "",
+      "Stage in the funnel": "",
+      "Target audience (choose from drop down)": "",
+      "Top three SEO keywords": ""
+    },
+    "page_title": "Canonical LXD",
+    "page_description": "Low-touch virtual infrastructure with LXD at any scale. Built on top of Linux containers, LXD offers a unified user experience in managing system containers, virtual machines and clusters. Easily configurable, flexible and trustedsecure way to run your workloads.",
+    "suggested_url": "https://canonical.com/lxd",
+    "table_start_index": 19,
+    "table_end_index": 719
+  },
+  "summary": {
+    "total_suggestions": 32,
+    "total_files": 1,
+    "by_file": {
+      "https://canonical.com/lxd": {
+        "insertions": 14,
+        "deletions": 18,
+        "replacements": 0
+      }
+    },
+    "by_type": {
+      "insert": 14,
+      "delete": 18,
+      "replace": 0
+    }
+  },
+  "file_mappings": {
+    "https://canonical.com/lxd": {
+      "suggested_file": "https://canonical.com/lxd",
+      "source_reference": "Copy of Index - \"LXD Draft Webpage\"",
+      "suggestion_count": 32,
+      "suggestion_ids": [
+        "suggest.j2s3jftsd23k",
+        "suggest.j2s3jftsd23k",
+        "suggest.folllkxqfexc",
+        "suggest.folllkxqfexc",
+        "suggest.9f60bn63ax88",
+        "suggest.9f60bn63ax88",
+        "suggest.w54rr9w6nc0v",
+        "suggest.gd6zfgbtzj4k",
+        "suggest.w54rr9w6nc0v",
+        "suggest.gd6zfgbtzj4k",
+        "suggest.w54rr9w6nc0v",
+        "suggest.9ynk9e1yc11z",
+        "suggest.9ynk9e1yc11z",
+        "suggest.tkmvclwkvfas",
+        "suggest.tkmvclwkvfas",
+        "suggest.t6e79d3j82an",
+        "suggest.t6e79d3j82an",
+        "suggest.qfvvwo5ug4r9",
+        "suggest.qfvvwo5ug4r9",
+        "suggest.20q8z0yzeu40",
+        "suggest.20q8z0yzeu40",
+        "suggest.5w6l5rnjivoq",
+        "suggest.5w6l5rnjivoq",
+        "suggest.y6w7nk1icdav",
+        "suggest.y6w7nk1icdav",
+        "suggest.2ggc00ly4hbe",
+        "suggest.y6w7nk1icdav",
+        "suggest.2ggc00ly4hbe",
+        "suggest.y6w7nk1icdav",
+        "suggest.y6w7nk1icdav",
+        "suggest.df609fog61vg",
+        "suggest.df609fog61vg"
+      ]
+    }
+  },
+  "actionable_suggestions": [
+    {
+      "id": "suggest.j2s3jftsd23k",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "em containers, virtual machines and clusters. Easily configurable, flexible and ",
+        "following_text": "secure way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubun"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "trusted"
+      },
+      "verification": {
+        "text_before_change": "em containers, virtual machines and clusters. Easily configurable, flexible and secure way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubun",
+        "text_after_change": "em containers, virtual machines and clusters. Easily configurable, flexible and trustedsecure way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubun"
+      }
+    },
+    {
+      "id": "suggest.j2s3jftsd23k",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "ainers, virtual machines and clusters. Easily configurable, flexible and trusted",
+        "following_text": " way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubuntu.com"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "secure"
+      },
+      "verification": {
+        "text_before_change": "ainers, virtual machines and clusters. Easily configurable, flexible and trustedsecure way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubuntu.com",
+        "text_after_change": "ainers, virtual machines and clusters. Easily configurable, flexible and trusted way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubuntu.com"
+      }
+    },
+    {
+      "id": "suggest.folllkxqfexc",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "D\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtuali",
+        "following_text": "sation with LXD\n\nThe comprehensive platform for open source virtualizsation with"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "z"
+      },
+      "verification": {
+        "text_before_change": "D\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualisation with LXD\n\nThe comprehensive platform for open source virtualizsation with",
+        "text_after_change": "D\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualizsation with LXD\n\nThe comprehensive platform for open source virtualizsation with"
+      }
+    },
+    {
+      "id": "suggest.folllkxqfexc",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualiz",
+        "following_text": "ation with LXD\n\nThe comprehensive platform for open source virtualizsation with "
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualizsation with LXD\n\nThe comprehensive platform for open source virtualizsation with ",
+        "text_after_change": "\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualization with LXD\n\nThe comprehensive platform for open source virtualizsation with "
+      }
+    },
+    {
+      "id": "suggest.9f60bn63ax88",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "ce virtualizsation with LXD\n\nThe comprehensive platform for open source virtuali",
+        "following_text": "sation with a cloud-like experience.\n\nLXD is an open-source solution for managin"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "z"
+      },
+      "verification": {
+        "text_before_change": "ce virtualizsation with LXD\n\nThe comprehensive platform for open source virtualisation with a cloud-like experience.\n\nLXD is an open-source solution for managin",
+        "text_after_change": "ce virtualizsation with LXD\n\nThe comprehensive platform for open source virtualizsation with a cloud-like experience.\n\nLXD is an open-source solution for managin"
+      }
+    },
+    {
+      "id": "suggest.9f60bn63ax88",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "e virtualizsation with LXD\n\nThe comprehensive platform for open source virtualiz",
+        "following_text": "ation with a cloud-like experience.\n\nLXD is an open-source solution for managing"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "e virtualizsation with LXD\n\nThe comprehensive platform for open source virtualizsation with a cloud-like experience.\n\nLXD is an open-source solution for managing",
+        "text_after_change": "e virtualizsation with LXD\n\nThe comprehensive platform for open source virtualization with a cloud-like experience.\n\nLXD is an open-source solution for managing"
+      }
+    },
+    {
+      "id": "suggest.w54rr9w6nc0v",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "rce solution for managing virtual machines and system containers. It provides a ",
+        "following_text": "trustedsecure and scalable environment with minimal overhead. Manage your worklo"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "security-maintained"
+      },
+      "verification": {
+        "text_before_change": "rce solution for managing virtual machines and system containers. It provides a trustedsecure and scalable environment with minimal overhead. Manage your worklo",
+        "text_after_change": "rce solution for managing virtual machines and system containers. It provides a security-maintainedtrustedsecure and scalable environment with minimal overhead. Manage your worklo"
+      }
+    },
+    {
+      "id": "suggest.gd6zfgbtzj4k",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "naging virtual machines and system containers. It provides a security-maintained",
+        "following_text": "secure and scalable environment with minimal overhead. Manage your workloads wit"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "trusted"
+      },
+      "verification": {
+        "text_before_change": "naging virtual machines and system containers. It provides a security-maintainedsecure and scalable environment with minimal overhead. Manage your workloads wit",
+        "text_after_change": "naging virtual machines and system containers. It provides a security-maintainedtrustedsecure and scalable environment with minimal overhead. Manage your workloads wit"
+      }
+    },
+    {
+      "id": "suggest.w54rr9w6nc0v",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "naging virtual machines and system containers. It provides a security-maintained",
+        "following_text": "secure and scalable environment with minimal overhead. Manage your workloads wit"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "trusted"
+      },
+      "verification": {
+        "text_before_change": "naging virtual machines and system containers. It provides a security-maintainedtrustedsecure and scalable environment with minimal overhead. Manage your workloads wit",
+        "text_after_change": "naging virtual machines and system containers. It provides a security-maintainedsecure and scalable environment with minimal overhead. Manage your workloads wit"
+      }
+    },
+    {
+      "id": "suggest.gd6zfgbtzj4k",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "virtual machines and system containers. It provides a security-maintainedtrusted",
+        "following_text": " and scalable environment with minimal overhead. Manage your workloads with ease"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "secure"
+      },
+      "verification": {
+        "text_before_change": "virtual machines and system containers. It provides a security-maintainedtrustedsecure and scalable environment with minimal overhead. Manage your workloads with ease",
+        "text_after_change": "virtual machines and system containers. It provides a security-maintainedtrusted and scalable environment with minimal overhead. Manage your workloads with ease"
+      }
+    },
+    {
+      "id": "suggest.w54rr9w6nc0v",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "virtual machines and system containers. It provides a security-maintainedtrusted",
+        "following_text": " and scalable environment with minimal overhead. Manage your workloads with ease"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "secure"
+      },
+      "verification": {
+        "text_before_change": "virtual machines and system containers. It provides a security-maintainedtrustedsecure and scalable environment with minimal overhead. Manage your workloads with ease",
+        "text_after_change": "virtual machines and system containers. It provides a security-maintainedtrusted and scalable environment with minimal overhead. Manage your workloads with ease"
+      }
+    },
+    {
+      "id": "suggest.9ynk9e1yc11z",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "sed on LXC – that can run a full Linux OS – in a single open source virtuali",
+        "following_text": "sation platform. LXD has numerous built-in management features, including live m"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "z"
+      },
+      "verification": {
+        "text_before_change": "sed on LXC – that can run a full Linux OS – in a single open source virtualisation platform. LXD has numerous built-in management features, including live m",
+        "text_after_change": "sed on LXC – that can run a full Linux OS – in a single open source virtualizsation platform. LXD has numerous built-in management features, including live m"
+      }
+    },
+    {
+      "id": "suggest.9ynk9e1yc11z",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "ed on LXC – that can run a full Linux OS – in a single open source virtualiz",
+        "following_text": "ation platform. LXD has numerous built-in management features, including live mi"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "ed on LXC – that can run a full Linux OS – in a single open source virtualizsation platform. LXD has numerous built-in management features, including live mi",
+        "text_after_change": "ed on LXC – that can run a full Linux OS – in a single open source virtualization platform. LXD has numerous built-in management features, including live mi"
+      }
+    },
+    {
+      "id": "suggest.tkmvclwkvfas",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "rage and networking, LXD becomes a lightweight cloud solution – MicroCloud.\n\n\n",
+        "following_text": "Secure and scalable\nLXD runs unprivileged containers by default - protecting the"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "Security-maintained"
+      },
+      "verification": {
+        "text_before_change": "rage and networking, LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecure and scalable\nLXD runs unprivileged containers by default - protecting the",
+        "text_after_change": "rage and networking, LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecurity-maintainedSecure and scalable\nLXD runs unprivileged containers by default - protecting the"
+      }
+    },
+    {
+      "id": "suggest.tkmvclwkvfas",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": ", LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecurity-maintained",
+        "following_text": " and scalable\nLXD runs unprivileged containers by default - protecting the host "
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "Secure"
+      },
+      "verification": {
+        "text_before_change": ", LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecurity-maintainedSecure and scalable\nLXD runs unprivileged containers by default - protecting the host ",
+        "text_after_change": ", LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecurity-maintained and scalable\nLXD runs unprivileged containers by default - protecting the host "
+      }
+    },
+    {
+      "id": "suggest.t6e79d3j82an",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "achines, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it ",
+        "following_text": "utilises UEFI SecureBoot and provides vTPM support.\n\nResource restrictions throu"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "uses"
+      },
+      "verification": {
+        "text_before_change": "achines, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it utilises UEFI SecureBoot and provides vTPM support.\n\nResource restrictions throu",
+        "text_after_change": "achines, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it usesutilises UEFI SecureBoot and provides vTPM support.\n\nResource restrictions throu"
+      }
+    },
+    {
+      "id": "suggest.t6e79d3j82an",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "nes, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it uses",
+        "following_text": " UEFI SecureBoot and provides vTPM support.\n\nResource restrictions through cgrou"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "utilises"
+      },
+      "verification": {
+        "text_before_change": "nes, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it usesutilises UEFI SecureBoot and provides vTPM support.\n\nResource restrictions through cgrou",
+        "text_after_change": "nes, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it uses UEFI SecureBoot and provides vTPM support.\n\nResource restrictions through cgrou"
+      }
+    },
+    {
+      "id": "suggest.qfvvwo5ug4r9",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": " as fine-grained access control, are also supported.\n\nLXD is also easy to scale ",
+        "following_text": "— from containers on your laptop to thousands of instances in the data centerr"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "–"
+      },
+      "verification": {
+        "text_before_change": " as fine-grained access control, are also supported.\n\nLXD is also easy to scale — from containers on your laptop to thousands of instances in the data centerr",
+        "text_after_change": " as fine-grained access control, are also supported.\n\nLXD is also easy to scale –— from containers on your laptop to thousands of instances in the data centerr"
+      }
+    },
+    {
+      "id": "suggest.qfvvwo5ug4r9",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": " fine-grained access control, are also supported.\n\nLXD is also easy to scale –",
+        "following_text": " from containers on your laptop to thousands of instances in the data centerre.\n"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "—"
+      },
+      "verification": {
+        "text_before_change": " fine-grained access control, are also supported.\n\nLXD is also easy to scale –— from containers on your laptop to thousands of instances in the data centerre.\n",
+        "text_after_change": " fine-grained access control, are also supported.\n\nLXD is also easy to scale – from containers on your laptop to thousands of instances in the data centerre.\n"
+      }
+    },
+    {
+      "id": "suggest.20q8z0yzeu40",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "–— from containers on your laptop to thousands of instances in the data cent",
+        "following_text": "re.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD "
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "er"
+      },
+      "verification": {
+        "text_before_change": "–— from containers on your laptop to thousands of instances in the data centre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD ",
+        "text_after_change": "–— from containers on your laptop to thousands of instances in the data centerre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD "
+      }
+    },
+    {
+      "id": "suggest.20q8z0yzeu40",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "\ufffd— from containers on your laptop to thousands of instances in the data center",
+        "following_text": ".\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD su"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "re"
+      },
+      "verification": {
+        "text_before_change": "\ufffd— from containers on your laptop to thousands of instances in the data centerre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD su",
+        "text_after_change": "\ufffd— from containers on your laptop to thousands of instances in the data center.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD su"
+      }
+    },
+    {
+      "id": "suggest.5w6l5rnjivoq",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "lternatives for running workloads\n\n\nLXD supports a variety of different virtuali",
+        "following_text": "sation options, so you can always pick the best strategy for each of your worklo"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "z"
+      },
+      "verification": {
+        "text_before_change": "lternatives for running workloads\n\n\nLXD supports a variety of different virtualisation options, so you can always pick the best strategy for each of your worklo",
+        "text_after_change": "lternatives for running workloads\n\n\nLXD supports a variety of different virtualizsation options, so you can always pick the best strategy for each of your worklo"
+      }
+    },
+    {
+      "id": "suggest.5w6l5rnjivoq",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "ternatives for running workloads\n\n\nLXD supports a variety of different virtualiz",
+        "following_text": "ation options, so you can always pick the best strategy for each of your workloa"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "ternatives for running workloads\n\n\nLXD supports a variety of different virtualizsation options, so you can always pick the best strategy for each of your workloa",
+        "text_after_change": "ternatives for running workloads\n\n\nLXD supports a variety of different virtualization options, so you can always pick the best strategy for each of your workloa"
+      }
+    },
+    {
+      "id": "suggest.y6w7nk1icdav",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "ud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\n",
+        "following_text": "Utilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like wor"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "Uses"
+      },
+      "verification": {
+        "text_before_change": "ud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like wor",
+        "text_after_change": "ud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like wor"
+      }
+    },
+    {
+      "id": "suggest.y6w7nk1icdav",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "ike experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUses",
+        "following_text": "zses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workload"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "Utili"
+      },
+      "verification": {
+        "text_before_change": "ike experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workload",
+        "text_after_change": "ike experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUseszses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workload"
+      }
+    },
+    {
+      "id": "suggest.2ggc00ly4hbe",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "xperience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtili",
+        "following_text": "ses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "z"
+      },
+      "verification": {
+        "text_before_change": "xperience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilises Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads",
+        "text_after_change": "xperience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads"
+      }
+    },
+    {
+      "id": "suggest.y6w7nk1icdav",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "xperience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtili",
+        "following_text": "ses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "z"
+      },
+      "verification": {
+        "text_before_change": "xperience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads",
+        "text_after_change": "xperience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilises Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads"
+      }
+    },
+    {
+      "id": "suggest.2ggc00ly4hbe",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "perience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtiliz",
+        "following_text": "es Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads "
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "perience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads ",
+        "text_after_change": "perience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizes Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads "
+      }
+    },
+    {
+      "id": "suggest.y6w7nk1icdav",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "perience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtiliz",
+        "following_text": "es Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads "
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "perience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads ",
+        "text_after_change": "perience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizes Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads "
+      }
+    },
+    {
+      "id": "suggest.y6w7nk1icdav",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "erience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizs",
+        "following_text": " Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads mo"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "es"
+      },
+      "verification": {
+        "text_before_change": "erience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads mo",
+        "text_after_change": "erience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizs Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads mo"
+      }
+    },
+    {
+      "id": "suggest.df609fog61vg",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "Enhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD",
+        "following_text": " based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud i"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "-"
+      },
+      "verification": {
+        "text_before_change": "Enhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud i",
+        "text_after_change": "Enhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD- based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud i"
+      }
+    },
+    {
+      "id": "suggest.df609fog61vg",
+      "file": "https://canonical.com/lxd",
+      "anchor": {
+        "preceding_text": "nhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD-",
+        "following_text": "based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud in"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": " "
+      },
+      "verification": {
+        "text_before_change": "nhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD- based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud in",
+        "text_after_change": "nhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD-based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud in"
+      }
+    }
+  ],
+  "grouped_suggestions": [
+    {
+      "location": {
+        "section": "Body",
+        "in_table": true,
+        "table": {
+          "table_index": 1,
+          "table_id": "table-1",
+          "table_title": "METADATA TEMPLATE",
+          "row_index": 3,
+          "column_index": 2,
+          "column_header": "",
+          "row_header": "Page description (160 characters max)"
+        },
+        "in_metadata": true
+      },
+      "suggestions": [
+        {
+          "id": "suggest.j2s3jftsd23k",
+          "anchor": {
+            "preceding_text": "unified user experience in managing system containers, virtual machines and clusters. Easily configurable, flexible and ",
+            "following_text": " way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubuntu.com/lxd\n*Suggested page URL (if applicable)"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "secure",
+            "new_text": "trusted"
+          },
+          "verification": {
+            "text_before_change": "unified user experience in managing system containers, virtual machines and clusters. Easily configurable, flexible and secure way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubuntu.com/lxd\n*Suggested page URL (if applicable)",
+            "text_after_change": "unified user experience in managing system containers, virtual machines and clusters. Easily configurable, flexible and trusted way to run your workloads.\n*Current page URL (if applicable)\nhttps://ubuntu.com/lxd\n*Suggested page URL (if applicable)"
+          },
+          "position": {
+            "start_index": 345,
+            "end_index": 358
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "trusted"
+            },
+            {
+              "type": "delete",
+              "original_text": "secure"
+            }
+          ],
+          "atomic_count": 2
+        }
+      ]
+    },
+    {
+      "location": {
+        "section": "Body",
+        "in_table": true,
+        "table": {
+          "table_index": 2,
+          "table_id": "table-2",
+          "table_title": "TEMPLATE HERO",
+          "row_index": 1,
+          "column_index": 1,
+          "column_header": "Lightweight open source virtualizsation with LXD",
+          "row_header": "Lightweight open source virtualizsation with LXD"
+        },
+        "in_metadata": false
+      },
+      "suggestions": [
+        {
+          "id": "suggest.folllkxqfexc",
+          "anchor": {
+            "preceding_text": "er and department)\n\n\nMENU STRUCTURE:\n\nLXD\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtuali",
+            "following_text": "ation with LXD\n\nThe comprehensive platform for open source virtualizsation with a cloud-like experience.\n\nLXD is an open"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "s",
+            "new_text": "z"
+          },
+          "verification": {
+            "text_before_change": "er and department)\n\n\nMENU STRUCTURE:\n\nLXD\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualisation with LXD\n\nThe comprehensive platform for open source virtualizsation with a cloud-like experience.\n\nLXD is an open",
+            "text_after_change": "er and department)\n\n\nMENU STRUCTURE:\n\nLXD\t\tInstall \t\tManage\tDocs\t\tForum \n\nTEMPLATE HERO\nLightweight open source virtualization with LXD\n\nThe comprehensive platform for open source virtualizsation with a cloud-like experience.\n\nLXD is an open"
+          },
+          "position": {
+            "start_index": 822,
+            "end_index": 824
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "z"
+            },
+            {
+              "type": "delete",
+              "original_text": "s"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.9f60bn63ax88",
+          "anchor": {
+            "preceding_text": "um \n\nTEMPLATE HERO\nLightweight open source virtualizsation with LXD\n\nThe comprehensive platform for open source virtuali",
+            "following_text": "ation with a cloud-like experience.\n\nLXD is an open-source solution for managing virtual machines and system containers."
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "s",
+            "new_text": "z"
+          },
+          "verification": {
+            "text_before_change": "um \n\nTEMPLATE HERO\nLightweight open source virtualizsation with LXD\n\nThe comprehensive platform for open source virtualisation with a cloud-like experience.\n\nLXD is an open-source solution for managing virtual machines and system containers.",
+            "text_after_change": "um \n\nTEMPLATE HERO\nLightweight open source virtualizsation with LXD\n\nThe comprehensive platform for open source virtualization with a cloud-like experience.\n\nLXD is an open-source solution for managing virtual machines and system containers."
+          },
+          "position": {
+            "start_index": 891,
+            "end_index": 893
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "z"
+            },
+            {
+              "type": "delete",
+              "original_text": "s"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.w54rr9w6nc0v",
+          "anchor": {
+            "preceding_text": "oud-like experience.\n\nLXD is an open-source solution for managing virtual machines and system containers. It provides a ",
+            "following_text": " and scalable environment with minimal overhead. Manage your workloads with ease and configure them to suit your use cas"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "trustedsecure",
+            "new_text": "security-maintained"
+          },
+          "verification": {
+            "text_before_change": "oud-like experience.\n\nLXD is an open-source solution for managing virtual machines and system containers. It provides a trustedsecure and scalable environment with minimal overhead. Manage your workloads with ease and configure them to suit your use cas",
+            "text_after_change": "oud-like experience.\n\nLXD is an open-source solution for managing virtual machines and system containers. It provides a security-maintained and scalable environment with minimal overhead. Manage your workloads with ease and configure them to suit your use cas"
+          },
+          "position": {
+            "start_index": 1028,
+            "end_index": 1060
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "security-maintained"
+            },
+            {
+              "type": "delete",
+              "original_text": "trusted"
+            },
+            {
+              "type": "delete",
+              "original_text": "secure"
+            }
+          ],
+          "atomic_count": 3
+        },
+        {
+          "id": "suggest.gd6zfgbtzj4k",
+          "anchor": {
+            "preceding_text": ".\n\nLXD is an open-source solution for managing virtual machines and system containers. It provides a security-maintained",
+            "following_text": " and scalable environment with minimal overhead. Manage your workloads with ease and configure them to suit your use cas"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "secure",
+            "new_text": "trusted"
+          },
+          "verification": {
+            "text_before_change": ".\n\nLXD is an open-source solution for managing virtual machines and system containers. It provides a security-maintainedsecure and scalable environment with minimal overhead. Manage your workloads with ease and configure them to suit your use cas",
+            "text_after_change": ".\n\nLXD is an open-source solution for managing virtual machines and system containers. It provides a security-maintainedtrusted and scalable environment with minimal overhead. Manage your workloads with ease and configure them to suit your use cas"
+          },
+          "position": {
+            "start_index": 1047,
+            "end_index": 1060
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "trusted"
+            },
+            {
+              "type": "delete",
+              "original_text": "secure"
+            }
+          ],
+          "atomic_count": 2
+        }
+      ]
+    },
+    {
+      "location": {
+        "section": "Body",
+        "in_table": true,
+        "table": {
+          "table_index": 4,
+          "table_id": "table-4",
+          "table_title": "TEMPLATE BASIC TEXT + SUBHEADINGS",
+          "row_index": 1,
+          "column_index": 2,
+          "column_header": "Run any type of workload",
+          "row_header": "Why choose LXD?"
+        },
+        "in_metadata": false
+      },
+      "suggestions": [
+        {
+          "id": "suggest.9ynk9e1yc11z",
+          "anchor": {
+            "preceding_text": "h KVM-based VMs and system containers based on LXC – that can run a full Linux OS – in a single open source virtuali",
+            "following_text": "ation platform. LXD has numerous built-in management features, including live migration, snapshots, resource restriction"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "s",
+            "new_text": "z"
+          },
+          "verification": {
+            "text_before_change": "h KVM-based VMs and system containers based on LXC – that can run a full Linux OS – in a single open source virtualisation platform. LXD has numerous built-in management features, including live migration, snapshots, resource restriction",
+            "text_after_change": "h KVM-based VMs and system containers based on LXC – that can run a full Linux OS – in a single open source virtualization platform. LXD has numerous built-in management features, including live migration, snapshots, resource restriction"
+          },
+          "position": {
+            "start_index": 1816,
+            "end_index": 1818
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "z"
+            },
+            {
+              "type": "delete",
+              "original_text": "s"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.tkmvclwkvfas",
+          "anchor": {
+            "preceding_text": " When combined with software-defined storage and networking, LXD becomes a lightweight cloud solution – MicroCloud.\n\n\n",
+            "following_text": " and scalable\nLXD runs unprivileged containers by default - protecting the host system from potential attacks. For virtu"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "Secure",
+            "new_text": "Security-maintained"
+          },
+          "verification": {
+            "text_before_change": " When combined with software-defined storage and networking, LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecure and scalable\nLXD runs unprivileged containers by default - protecting the host system from potential attacks. For virtu",
+            "text_after_change": " When combined with software-defined storage and networking, LXD becomes a lightweight cloud solution – MicroCloud.\n\n\nSecurity-maintained and scalable\nLXD runs unprivileged containers by default - protecting the host system from potential attacks. For virtu"
+          },
+          "position": {
+            "start_index": 2530,
+            "end_index": 2555
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "Security-maintained"
+            },
+            {
+              "type": "delete",
+              "original_text": "Secure"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.t6e79d3j82an",
+          "anchor": {
+            "preceding_text": "em from potential attacks. For virtual machines, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it ",
+            "following_text": " UEFI SecureBoot and provides vTPM support.\n\nResource restrictions through cgroups and ulimits, as well as fine-grained "
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "utilises",
+            "new_text": "uses"
+          },
+          "verification": {
+            "text_before_change": "em from potential attacks. For virtual machines, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it utilises UEFI SecureBoot and provides vTPM support.\n\nResource restrictions through cgroups and ulimits, as well as fine-grained ",
+            "text_after_change": "em from potential attacks. For virtual machines, LXD uses modern virtual hardware (VirtIO) exclusively. In addition, it uses UEFI SecureBoot and provides vTPM support.\n\nResource restrictions through cgroups and ulimits, as well as fine-grained "
+          },
+          "position": {
+            "start_index": 2759,
+            "end_index": 2771
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "uses"
+            },
+            {
+              "type": "delete",
+              "original_text": "utilises"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.qfvvwo5ug4r9",
+          "anchor": {
+            "preceding_text": "ons through cgroups and ulimits, as well as fine-grained access control, are also supported.\n\nLXD is also easy to scale ",
+            "following_text": " from containers on your laptop to thousands of instances in the data centerre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlter"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "—",
+            "new_text": "–"
+          },
+          "verification": {
+            "text_before_change": "ons through cgroups and ulimits, as well as fine-grained access control, are also supported.\n\nLXD is also easy to scale — from containers on your laptop to thousands of instances in the data centerre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlter",
+            "text_after_change": "ons through cgroups and ulimits, as well as fine-grained access control, are also supported.\n\nLXD is also easy to scale – from containers on your laptop to thousands of instances in the data centerre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlter"
+          },
+          "position": {
+            "start_index": 2954,
+            "end_index": 2956
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "–"
+            },
+            {
+              "type": "delete",
+              "original_text": "—"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.20q8z0yzeu40",
+          "anchor": {
+            "preceding_text": "o supported.\n\nLXD is also easy to scale –— from containers on your laptop to thousands of instances in the data cent",
+            "following_text": ".\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD supports a variety of different virtualizs"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "re",
+            "new_text": "er"
+          },
+          "verification": {
+            "text_before_change": "o supported.\n\nLXD is also easy to scale –— from containers on your laptop to thousands of instances in the data centre.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD supports a variety of different virtualizs",
+            "text_after_change": "o supported.\n\nLXD is also easy to scale –— from containers on your laptop to thousands of instances in the data center.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD supports a variety of different virtualizs"
+          },
+          "position": {
+            "start_index": 3030,
+            "end_index": 3034
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "er"
+            },
+            {
+              "type": "delete",
+              "original_text": "re"
+            }
+          ],
+          "atomic_count": 2
+        }
+      ]
+    },
+    {
+      "location": {
+        "section": "Body",
+        "in_table": true,
+        "table": {
+          "table_index": 5,
+          "table_id": "table-5",
+          "table_title": "TEMPLATE BASIC TEXT + SUBHEADINGS",
+          "row_index": 1,
+          "column_index": 2,
+          "column_header": "LXD supports a variety of different virtualizsatio...",
+          "row_header": "Alternatives for running workloads"
+        },
+        "in_metadata": false
+      },
+      "suggestions": [
+        {
+          "id": "suggest.5w6l5rnjivoq",
+          "anchor": {
+            "preceding_text": "re.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD supports a variety of different virtuali",
+            "following_text": "ation options, so you can always pick the best strategy for each of your workloads.\n\nVirtual machines\nQEMU/KVM-based VMs"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "s",
+            "new_text": "z"
+          },
+          "verification": {
+            "text_before_change": "re.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD supports a variety of different virtualisation options, so you can always pick the best strategy for each of your workloads.\n\nVirtual machines\nQEMU/KVM-based VMs",
+            "text_after_change": "re.\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nAlternatives for running workloads\n\n\nLXD supports a variety of different virtualization options, so you can always pick the best strategy for each of your workloads.\n\nVirtual machines\nQEMU/KVM-based VMs"
+          },
+          "position": {
+            "start_index": 3157,
+            "end_index": 3159
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "z"
+            },
+            {
+              "type": "delete",
+              "original_text": "s"
+            }
+          ],
+          "atomic_count": 2
+        },
+        {
+          "id": "suggest.y6w7nk1icdav",
+          "anchor": {
+            "preceding_text": "rnel or OS than the host\nLegacy free\nCloud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\n",
+            "following_text": " Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads more efficiently\n\n\n\nClusters for more dema"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "Utilizses",
+            "new_text": "Uses"
+          },
+          "verification": {
+            "text_before_change": "rnel or OS than the host\nLegacy free\nCloud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUtilizses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads more efficiently\n\n\n\nClusters for more dema",
+            "text_after_change": "rnel or OS than the host\nLegacy free\nCloud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUses Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads more efficiently\n\n\n\nClusters for more dema"
+          },
+          "position": {
+            "start_index": 3436,
+            "end_index": 3449
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "Uses"
+            },
+            {
+              "type": "delete",
+              "original_text": "Utili"
+            },
+            {
+              "type": "delete",
+              "original_text": "z"
+            },
+            {
+              "type": "delete",
+              "original_text": "s"
+            },
+            {
+              "type": "delete",
+              "original_text": "es"
+            }
+          ],
+          "atomic_count": 5
+        },
+        {
+          "id": "suggest.2ggc00ly4hbe",
+          "anchor": {
+            "preceding_text": "S than the host\nLegacy free\nCloud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtili",
+            "following_text": "es Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads more efficiently\n\n\n\nClusters for more de"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": "s",
+            "new_text": "z"
+          },
+          "verification": {
+            "text_before_change": "S than the host\nLegacy free\nCloud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilises Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads more efficiently\n\n\n\nClusters for more de",
+            "text_after_change": "S than the host\nLegacy free\nCloud-like experience\n\nSystem containers\nTo run a full Linux OS inside a container\nUsesUtilizes Kernel of the host\nIdentical performance to bare metal\nRun VM-like workloads more efficiently\n\n\n\nClusters for more de"
+          },
+          "position": {
+            "start_index": 3445,
+            "end_index": 3447
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "z"
+            },
+            {
+              "type": "delete",
+              "original_text": "s"
+            }
+          ],
+          "atomic_count": 2
+        }
+      ]
+    },
+    {
+      "location": {
+        "section": "Body",
+        "in_table": true,
+        "table": {
+          "table_index": 8,
+          "table_id": "table-8",
+          "table_title": "TEMPLATE BASIC TEXT + SUBHEADINGS",
+          "row_index": 1,
+          "column_index": 2,
+          "column_header": "MicroCloud: a LXD- based cloud solution",
+          "row_header": "Enhance your experience with best-in-class open-so..."
+        },
+        "in_metadata": false
+      },
+      "suggestions": [
+        {
+          "id": "suggest.df609fog61vg",
+          "anchor": {
+            "preceding_text": "Tube\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nEnhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD",
+            "following_text": "based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud infrastructure portfolio. It is a low-touc"
+          },
+          "change": {
+            "type": "replace",
+            "original_text": " ",
+            "new_text": "-"
+          },
+          "verification": {
+            "text_before_change": "Tube\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nEnhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud infrastructure portfolio. It is a low-touc",
+            "text_after_change": "Tube\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nEnhance your experience with best-in-class open-source tools\n\n\nMicroCloud: a LXD-based cloud solution\nMicroCloud is the newest addition to Canonical’s cloud infrastructure portfolio. It is a low-touc"
+          },
+          "position": {
+            "start_index": 4848,
+            "end_index": 4850
+          },
+          "atomic_changes": [
+            {
+              "type": "insert",
+              "new_text": "-"
+            },
+            {
+              "type": "delete",
+              "original_text": " "
+            }
+          ],
+          "atomic_count": 2
+        }
+      ]
+    }
+  ],
+  "comments": null
+}
