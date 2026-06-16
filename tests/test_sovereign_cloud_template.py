@@ -4,10 +4,12 @@ from pathlib import Path
 
 class TestSovereignCloudTemplate(unittest.TestCase):
     def setUp(self):
-        self.template = Path(
-            "/home/runner/work/canonical.com/canonical.com/"
-            "britneywwc/canonical.com/templates/solutions/"
-            "infrastructure/sovereign-cloud.html"
+        self.template = (
+            Path(__file__).resolve().parent.parent
+            / "templates"
+            / "solutions"
+            / "infrastructure"
+            / "sovereign-cloud.html"
         ).read_text()
 
     def test_updates_hero_copy_and_cta(self):
