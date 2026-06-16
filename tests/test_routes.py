@@ -302,6 +302,10 @@ class TestSovereignCloudTemplate(unittest.TestCase):
             self.template,
         )
         self.assertIn(
+            '"tab_html": "Technology"',
+            self.template,
+        )
+        self.assertIn(
             "Technology sovereignty is the highest level of control you can"
             " have over your cloud",
             self.template,
