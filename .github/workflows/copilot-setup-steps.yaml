@@ -1,0 +1,17 @@
+name: Copilot Setup Steps
+on:
+  workflow_dispatch:
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install --yes python3-setuptools
+          sudo pip3 install -r requirements.txt
+          sudo pip3 install coverage
+
+          yarn install --immutable
+          yarn build
