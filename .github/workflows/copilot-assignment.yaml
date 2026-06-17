@@ -22,13 +22,42 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const response = await github.rest.issues.addAssignees({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              assignees: ['copilot']
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issueNumber = context.issue.number;
+
+            const candidates = await github.paginate(github.rest.issues.listAssignees, {
+              owner,
+              repo,
+              per_page: 100,
             });
-            const assigned = response.data.assignees.some(a => a.login === 'copilot');
+
+            const copilotAssignee = candidates.find((user) =>
+              /copilot/i.test(user.login) || /copilot/i.test(user.name || '')
+            );
+
+            if (!copilotAssignee) {
+              core.setFailed(
+                'No assignable Copilot account found in this repository. Confirm Copilot coding agent is enabled and assignable.'
+              );
+              return;
+            }
+
+            core.info(`Assigning issue to ${copilotAssignee.login}`);
+
+            const response = await github.rest.issues.addAssignees({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              assignees: [copilotAssignee.login],
+            });
+
+            const assigned = response.data.assignees.some(
+              (a) => a.login.toLowerCase() === copilotAssignee.login.toLowerCase()
+            );
+
             if (!assigned) {
-              core.setFailed('Failed to assign copilot to issue. Ensure GitHub Copilot coding agent is enabled for this repository.');
+              core.setFailed(
+                `Failed to assign ${copilotAssignee.login} to issue even though it appears assignable.`
+              );
             }
