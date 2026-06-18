@@ -147,6 +147,18 @@ class TestRoutes(VCRTestCase):
             self.client.get("/partners/executive-summit").status_code, 200
         )
 
+    def test_sovereign_cloud_page_content(self):
+        response = self.client.get("/solutions/infrastructure/sovereign-cloud")
+
+        self.assertEqual(response.status_code, 200)
+        html = response.get_data(as_text=True)
+        self.assertIn("Your cloud. Your data. Your turf.", html)
+        self.assertIn("Get the essential guide to sovereign clouds", html)
+        self.assertIn(
+            "Levels of digital sovereignty in the cloud",
+            html,
+        )
+
     def test_invalid_partners_page(self):
         """
         When given the URL of an invalid partners department,
