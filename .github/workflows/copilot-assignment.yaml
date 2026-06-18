@@ -21,14 +21,14 @@ jobs:
       # Requires a PAT with repo + Copilot agent permissions stored as COPILOT_TOKEN.
       - name: Start Copilot agent task for issue
         env:
-          GH_TOKEN: ${{ secrets.COPILOT_TOKEN }}
+          COPILOT_TOKEN: ${{ secrets.COPILOT_TOKEN }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           REPO: ${{ github.repository }}
         run: |
-          # Authenticate gh CLI using the token (required for preview commands)
-          echo "$GH_TOKEN" | gh auth login --with-token
+          # Store token in gh credential store (GH_TOKEN must not be set while doing this)
+          echo "$COPILOT_TOKEN" | gh auth login --with-token
 
           # Truncate body to 2000 chars to avoid excessively long prompts
           PROMPT="Work on issue #${ISSUE_NUMBER}: ${ISSUE_TITLE}
