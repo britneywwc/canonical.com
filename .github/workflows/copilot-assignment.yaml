@@ -5,8 +5,9 @@ on:
     types:
       - labeled
 
-# This workflow needs permission to modify issues
+# Read access is needed for gh to resolve the repository
 permissions:
+  contents: read
   issues: write
 
 # This workflow contains one job: assign_copilot_user
@@ -16,48 +17,21 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.label.name == 'copilot'
     steps:
-      # This step assigns the issue to the copilot user
-      - name: Assign issue to copilot
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            const issueNumber = context.issue.number;
+      # Start a Copilot cloud agent session referencing this issue.
+      # Requires a PAT with repo + Copilot agent permissions stored as COPILOT_TOKEN.
+      - name: Start Copilot agent task for issue
+        env:
+          GH_TOKEN: ${{ secrets.COPILOT_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          REPO: ${{ github.repository }}
+        run: |
+          # Truncate body to 2000 chars to avoid excessively long prompts
+          PROMPT="Work on issue #${ISSUE_NUMBER}: ${ISSUE_TITLE}
 
-            const candidates = await github.paginate(github.rest.issues.listAssignees, {
-              owner,
-              repo,
-              per_page: 100,
-            });
+          ${ISSUE_BODY:0:2000}"
 
-            const copilotAssignee = candidates.find((user) =>
-              /copilot/i.test(user.login) || /copilot/i.test(user.name || '')
-            );
-
-            if (!copilotAssignee) {
-              core.setFailed(
-                'No assignable Copilot account found in this repository. Confirm Copilot coding agent is enabled and assignable.'
-              );
-              return;
-            }
-
-            core.info(`Assigning issue to ${copilotAssignee.login}`);
-
-            const response = await github.rest.issues.addAssignees({
-              owner,
-              repo,
-              issue_number: issueNumber,
-              assignees: [copilotAssignee.login],
-            });
-
-            const assigned = response.data.assignees.some(
-              (a) => a.login.toLowerCase() === copilotAssignee.login.toLowerCase()
-            );
-
-            if (!assigned) {
-              core.setFailed(
-                `Failed to assign ${copilotAssignee.login} to issue even though it appears assignable.`
-              );
-            }
+          gh agent-task create \
+            --repo "$REPO" \
+            "$PROMPT"
