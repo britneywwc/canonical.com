@@ -27,6 +27,9 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           REPO: ${{ github.repository }}
         run: |
+          # Authenticate gh CLI using the token (required for preview commands)
+          echo "$GH_TOKEN" | gh auth login --with-token
+
           # Truncate body to 2000 chars to avoid excessively long prompts
           PROMPT="Work on issue #${ISSUE_NUMBER}: ${ISSUE_TITLE}
 
