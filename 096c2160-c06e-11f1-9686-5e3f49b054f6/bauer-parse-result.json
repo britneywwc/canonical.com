@@ -1,0 +1,90 @@
+{
+  "document_title": "Copy of install - \"LXD webpage\"",
+  "document_id": "1bKsGNgNz7CWTN9bdYTuIjCdWIN_B1yWOaNdRUV0lcn0",
+  "document_metadata": {
+    "raw": {
+      "*Current page URL (if applicable)": "https://ubuntu.com/lxd/install",
+      "*Page owner (writer and department)": "",
+      "*Suggested page URL (if applicable)": "http://canonical.com/lxd/install",
+      "Main CTA (call to action)": "",
+      "Page description (160 characters max)": "Run system containers with LXD",
+      "Page title (60 characters max)": "Install LXD",
+      "Page type (choose from drop down)": "",
+      "Stage in the funnel": "",
+      "Target audience (choose from drop down)": "",
+      "Top three SEO keywords": ""
+    },
+    "page_title": "Install LXD",
+    "page_description": "Run system containers with LXD",
+    "suggested_url": "http://canonical.com/lxd/install",
+    "table_start_index": 19,
+    "table_end_index": 499
+  },
+  "summary": {
+    "total_suggestions": 2,
+    "total_files": 1,
+    "by_file": {
+      "http://canonical.com/lxd/install": {
+        "insertions": 1,
+        "deletions": 1,
+        "replacements": 0,
+        "link_adds": 0,
+        "link_changes": 0,
+        "link_removes": 0
+      }
+    },
+    "by_type": {
+      "insert": 1,
+      "delete": 1,
+      "replace": 0,
+      "link_add": 0,
+      "link_change": 0,
+      "link_remove": 0
+    }
+  },
+  "file_mappings": {
+    "http://canonical.com/lxd/install": {
+      "suggested_file": "http://canonical.com/lxd/install",
+      "source_reference": "Copy of install - \"LXD webpage\"",
+      "suggestion_count": 2,
+      "suggestion_ids": [
+        "suggest.1hwgrfvuc7l9",
+        "suggest.1hwgrfvuc7l9"
+      ]
+    }
+  },
+  "actionable_suggestions": [
+    {
+      "id": "suggest.1hwgrfvuc7l9",
+      "file": "http://canonical.com/lxd/install",
+      "anchor": {
+        "preceding_text": "about how to resolve these issues \u003e\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nFamiliari",
+        "following_text": "se yourself with the basics\n\n\n\nInstances\n\nLXD supports two types of instances: s"
+      },
+      "change": {
+        "type": "insert",
+        "new_text": "z"
+      },
+      "verification": {
+        "text_before_change": "about how to resolve these issues \u003e\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nFamiliarise yourself with the basics\n\n\n\nInstances\n\nLXD supports two types of instances: s",
+        "text_after_change": "about how to resolve these issues \u003e\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nFamiliarizse yourself with the basics\n\n\n\nInstances\n\nLXD supports two types of instances: s"
+      }
+    },
+    {
+      "id": "suggest.1hwgrfvuc7l9",
+      "file": "http://canonical.com/lxd/install",
+      "anchor": {
+        "preceding_text": "bout how to resolve these issues \u003e\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nFamiliariz",
+        "following_text": "e yourself with the basics\n\n\n\nInstances\n\nLXD supports two types of instances: sy"
+      },
+      "change": {
+        "type": "delete",
+        "original_text": "s"
+      },
+      "verification": {
+        "text_before_change": "bout how to resolve these issues \u003e\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nFamiliarizse yourself with the basics\n\n\n\nInstances\n\nLXD supports two types of instances: sy",
+        "text_after_change": "bout how to resolve these issues \u003e\n\nTEMPLATE BASIC TEXT + SUBHEADINGS\nFamiliarize yourself with the basics\n\n\n\nInstances\n\nLXD supports two types of instances: sy"
+      }
+    }
+  ]
+}
